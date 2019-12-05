@@ -2,7 +2,8 @@
 #define SNAKE_H
 
 #include <QWidget>
-
+#include <QPushButton>
+#include <QMessageBox>
 namespace Ui {
 class Snake;
 }
@@ -17,6 +18,12 @@ public:
 
 private:
     Ui::Snake *ui;
+    QPushButton *StartGame;
+    QPushButton *ExitGame;
+    QMessageBox *ExitMsg;
+public slots:
+    void OnStartGame();
+    void OnExitGame();
 };
 
 #endif // SNAKE_H

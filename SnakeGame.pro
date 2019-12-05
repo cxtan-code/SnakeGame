@@ -32,3 +32,6 @@ HEADERS += \
 
 FORMS += \
         snake.ui
+
+RESOURCES += \
+    main.qrc

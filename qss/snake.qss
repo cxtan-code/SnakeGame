@@ -1,0 +1,3 @@
+QPushButton:pressed {
+    background-image:url(:/image/Exit.png);
+}
