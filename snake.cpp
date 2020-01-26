@@ -3,6 +3,7 @@
 #include <QTextCodec>
 #include <QPalette>
 #include <QDebug>
+#include "gamewidget.h"
 Snake::Snake(QWidget *parent) :
     QWidget(parent),
     ui(new Ui::Snake)
@@ -45,6 +46,9 @@ Snake::~Snake()
 void Snake::OnStartGame()
 {
     qDebug()<<"enter OnStartGame"<<endl;
+    m_game = new GameWidget(this);
+    m_game->show();
+//    this->hide();
 }
 void Snake::OnExitGame()
 {

@@ -7,5 +7,25 @@
         <file>image/Pause.png</file>
         <file>image/Start.png</file>
         <file>image/WindowPicture.jpg</file>
+        <file>image/Apple.png</file>
+        <file>image/Back1.jpg</file>
+        <file>image/down.png</file>
+        <file>image/downup.png</file>
+        <file>image/headdown.png</file>
+        <file>image/headleft.png</file>
+        <file>image/headright.png</file>
+        <file>image/headup.png</file>
+        <file>image/left.png</file>
+        <file>image/leftdown.png</file>
+        <file>image/leftright.png</file>
+        <file>image/leftup.png</file>
+        <file>image/right.png</file>
+        <file>image/rightdown.png</file>
+        <file>image/rightup.png</file>
+        <file>image/taildown.png</file>
+        <file>image/tailleft.png</file>
+        <file>image/tailright.png</file>
+        <file>image/tailup.png</file>
+        <file>image/up.png</file>
     </qresource>
 </RCC>

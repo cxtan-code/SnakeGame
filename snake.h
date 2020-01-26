@@ -1,9 +1,10 @@
-#ifndef SNAKE_H
+﻿#ifndef SNAKE_H
 #define SNAKE_H
 
 #include <QWidget>
 #include <QPushButton>
 #include <QMessageBox>
+#include "gamewidget.h"
 namespace Ui {
 class Snake;
 }
@@ -21,6 +22,7 @@ private:
     QPushButton *StartGame;
     QPushButton *ExitGame;
     QMessageBox *ExitMsg;
+    GameWidget *m_game;
 public slots:
     void OnStartGame();
     void OnExitGame();
