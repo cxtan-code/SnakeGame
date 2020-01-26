@@ -34,4 +34,4 @@ FORMS += \
         snake.ui
 
 RESOURCES += \
-    main.qrc
+    resource.qrc
